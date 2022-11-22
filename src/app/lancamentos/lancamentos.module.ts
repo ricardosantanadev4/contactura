@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { LancamentosRoutingModule } from './lancamentos-routing.module';
 import { DespesasComponent } from './despesas/despesas.component';
+import { ReceitasComponent } from './receitas/receitas.component';
 
 
 @NgModule({
   declarations: [
-    DespesasComponent
+    DespesasComponent,
+    ReceitasComponent
   ],
   imports: [
     CommonModule,

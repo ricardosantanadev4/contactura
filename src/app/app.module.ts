@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ReceitasComponent } from './relatorios/receitas/receitas.component';
 import { DespesasComponent } from './relatorios/despesas/despesas.component';
 import { LancamentosComponent } from './lancamentos/lancamentos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TesteComponent } from './teste/teste.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { LancamentosComponent } from './lancamentos/lancamentos.component';
     PageNotFoundComponent,
     ReceitasComponent,
     DespesasComponent,
-    LancamentosComponent
+    LancamentosComponent,
+    TesteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
