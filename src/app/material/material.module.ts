@@ -43,7 +43,12 @@ export const DATE_FORMATS = {
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    material
+  ],
+  exports: [
+    material
+  ],
+
 })
 export class MaterialModule { }
